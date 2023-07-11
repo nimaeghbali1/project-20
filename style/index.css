@@ -1,0 +1,7 @@
+@import url(_reset.css);
+
+.container{
+    width: 1440px;
+    height: 900px;
+    background-color: red;
+}
