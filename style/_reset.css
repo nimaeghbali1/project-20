@@ -1,3 +1,42 @@
-@import url(_utility.css);
-@import url(bootstrap.css);
+@import url(./_utility.css);
+@import url(./bootstrap.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+
+ @font-face {
+    font-family: "poppins-300";
+    src: url(../fonts/Poppins-Light.woff2) format("woff2");
+ }
+ @font-face {
+    font-family: "poppins-400";
+    src: url(../fonts/Poppins-Regular.woff2) format("woff2");
+ }
+ @font-face {
+    font-family: "poppins-500";
+    src: url(../fonts/Poppins-Medium.woff2) format("woff2");
+ }
+ @font-face {
+    font-family: "poppins-600";
+    src: url(../fonts/Poppins-SemiBold.woff2) format("woff2");
+ }
+ @font-face {
+    font-family: "roboto-400";
+    src: url(../fonts/Roboto-Regular.woff2) format("woff2");
+ }
+ @font-face {
+    font-family: "inter-500";
+    src: url(../fonts/Inter-Medium.woff2) format("woff2");
+ }
+
+ :root{
+   --green: #20DC49;
+   --matte: #00000024;
+
+ }
+
+ html{
+   font-size: 62.5%;
+   box-sizing: border-box;
+ }
+ p{
+   margin: 0;
+ }

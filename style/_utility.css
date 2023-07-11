@@ -1,0 +1,36 @@
+/*  font-size   */
+
+.fs-14{
+    font-size: 1.4rem;
+}
+.fs-16{
+    font-size: 1.6rem;
+}
+.fs-18{
+    font-size: 1.8rem;
+}
+.fs-24{
+    font-size: 2.4rem;
+}
+
+/*  font-family */
+
+.ff-poppins-300{
+    font-family: poppins-300;
+}
+.ff-poppins-400{
+    font-family: poppins-400;
+}
+.ff-poppins-500{
+    font-family: poppins-500;
+}
+.ff-poppins-600{
+    font-family: poppins-600;
+}
+.ff-roboto-400{
+    font-family: roboto-400;
+}
+.ff-inter-500{
+    font-family: inter-500;
+}
+
