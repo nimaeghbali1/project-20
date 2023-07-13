@@ -11,22 +11,61 @@
     </head>
     <body>
         <main class="container">
-            <section class="left-section">
-                <header class="header d-flex justify-content-between">
-                    <img src="./images/logo.png" alt="Logo" class="logo align-self-center">
-                    <p class="ff-inter-500 fs-16 align-self-center">Logo here</p>
-                </header>
-                <section class="mic-zap">
-                    <div class="zap-div d-flex">
-                        <img src="./images/flash-circle.png" alt="logo" class="zap-icon align-self-center">
-                        <h3 class="zap-text ff-roboto-400 fs-16 align-self-center">Royal Stock Images</h3>
+            <section class="main-section d-flex">
+                <section class="left-section">
+                    <header class="header d-flex justify-content-between">
+                        <img src="./images/logo.png" alt="Logo" class="logo align-self-center">
+                        <p class="ff-inter-500 fs-16 align-self-center">Logo here</p>
+                    </header>
+                    <section class="mic-zap">
+                        <button class="zap-div d-flex">
+                            <img src="./images/flash-circle.png" alt="logo" class="zap-icon align-self-center">
+                            <h3 class="zap-text ff-roboto-400 fs-16 align-self-center">Royal Stock Images</h3>
+                        </button>
+                        <button class="microscope-div">
+                            <div class="microscope">
+                                <img src="./images/microscope.png" alt="microscope-logo">
+                            </div>
+                            <p class="mic-description ff-roboto-400 fs-18 text-white">Best Stock Photos and Videos from across the internet.</p>
+                        </button>
+                    </section>
+                </section>
+                <section class="right-section">
+                    <div class="sing-in d-flex gap-2 w-100 justify-content-end">
+                        <p class="ff-poppins-300 fs-14 text-black">have an account?</p>
+                        <a href="#" class="sign-in-txt ff-poppins-500 fs-14 txt-green text-decoration-none">Sign in!</a>
                     </div>
-                    <div class="microscope-div">
-                        <div class="microscope">
-                            <img src="./images/microscope.png" alt="microscope-logo">
+                    <h3 class=" get-start ff-poppins-600 fs-24 text-black d-flex justify-content-around">Get Started With MAKER</h3>
+                    <h3 class="ff-poppins-400 fs-16 txt-light-gray d-flex justify-content-around mt-2">Getting started is easy</h3>
+                    <div class="social-btn-div d-flex justify-content-around">
+                        <div class="d-flex gap-4">
+                            <button class="google-btn bg-white d-flex gap-2">
+                                <img src="./images/google.png" alt="google-logo">
+                                <span class="google-text ff-poppins-500 fs-12 align-self-center">Google</span>
+                            </button>
+                            <button class="facebook-btn bg-white d-flex gap-2 align-self-center">
+                                <img src="./images/facebook.png" alt="google-logo">
+                                <span class="google-text ff-poppins-500 fs-12 align-self-center">Facebook</span>
+                            </button>
                         </div>
-                        <p class="mic-description ff-roboto-400 fs-18 text-white">Best Stock Photos and Videos from across the internet.</p>
                     </div>
+                    <section class="d-flex justify-content-around">
+                        <section class="fills mt-4">
+                            <div class="d-flex justify-content-between gap-4">
+                                <div class="line"></div>
+                                <span class="ff-poppins-400 fs-12 align-self-center">Or continue with</span>
+                                <div class="line"></div>
+                            </div>
+                            <input type="text" placeholder="Full Name">
+                            <input type="email" placeholder="Enter Email">
+                            <input type="password" placeholder="Password">
+                            <input type="password" placeholder="Confirm Password">
+                            <input type="submit" value="Create Account">
+                        </section>
+                    </section>
+                    <footer class="footer d-flex justify-content-around">
+                        <span class="fs-14 ff-poppins-300 txt-footer">By continuing you indicate that you read and agreed to the Terms of Use</span>
+                    </footer>
                 </section>
             </section>
         </main>

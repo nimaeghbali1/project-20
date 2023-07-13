@@ -1,5 +1,8 @@
 /*  font-size   */
 
+.fs-12{
+    font-size: 1.2rem;
+}
 .fs-14{
     font-size: 1.4rem;
 }
@@ -34,3 +37,14 @@
     font-family: inter-500;
 }
 
+/*  colors  */
+
+.txt-green{
+    color: #20DC49;
+}
+.txt-light-gray{
+    color : var(--light-gray)
+}
+.txt-footer{
+    color: var(--footer);
+}

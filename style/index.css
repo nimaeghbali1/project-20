@@ -3,7 +3,7 @@
 .container{
     width: 1440px;
     height: 900px;
-    background-color: red;
+    background-color: var(--bg-color);
     padding: 0;
 }
 .left-section{
@@ -30,11 +30,15 @@
     gap:1.1rem;
     border-radius: 4.8rem;
     height: 6rem;
+    width: 24.6rem;
+    border: none;
+}
+.zap-div:hover{
+    background-color: #20CC49;
 }
 .zap-icon{
     width: 3.8rem;
     height: 3.8rem;
-    margin-left: 1rem;
 }
 .microscope-div{
     padding: 1.7rem 3.2rem;
@@ -42,7 +46,10 @@
     backdrop-filter: blur(21.475366592407227px);
     border-radius: 1.4rem;
     margin-top: 1.5rem;
-
+    border: none;
+}
+.microscope-div:hover{
+    backdrop-filter: blur(51.475366592407227px);
 }
 .microscope{
     padding: 0.82rem 1.1rem;
@@ -52,4 +59,71 @@
 }
 .mic-description{
     margin-top: 1.38rem;
+}
+.right-section{
+    width: 82.1rem;
+    height: 90rem;
+    padding: 4.5rem;
+}
+.get-start{
+    margin-top: 5.7rem;
+}
+.google-btn{
+    padding: 1rem 2.6rem;
+    border: 0.1rem solid var(--border-gray);
+    border-radius: 0.5rem;
+}
+.google-btn:hover{
+    border: 0.1rem solid var(--green);
+}
+.facebook-btn{
+    padding: 0.9rem 1.7rem;
+    border: 0.1rem solid var(--border-gray);
+    border-radius: 0.5rem;
+}
+.facebook-btn:hover{
+    border: 0.1rem solid var(--green);
+}
+.social-btn-div{
+    margin-top: 4.3rem;
+}
+.fills{
+    max-width: 40rem;
+}
+.line{
+    height: 0.1rem;
+    width: 13rem;
+    background-color: var(--line);
+    align-self: center;
+}
+input{
+    width: 40rem;
+    height: 7rem;
+    background-color: white;
+    border: 0.1rem solid var(--input-border);
+    padding: 2.6rem;
+    font-size: 1.4rem;
+    font-family: poppins-400;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    
+}
+input:focus{
+    border: 0.1rem solid var(--green);
+    outline: none;
+}
+input[type=submit]{
+    background-color: var(--green);
+    height: 5.77rem;
+    padding: 1.9rem 14rem;
+    margin-top: 2.8rem;
+}
+input[type=submit]:hover{
+    background-color: #20CC49;
+}
+.footer{
+    margin-top: 5.5rem;
+}
+.sign-in-txt:hover{
+    color: #20CC49;
 }
